@@ -1,0 +1,54 @@
+/* Entire Document ------ */
+img {
+    width: 300px;
+}
+body {
+    color: #2E2C2F;
+}
+a {
+    color: #F7F7F2;
+    background: #2E2C2F;
+    padding: 8px;
+    border-radius: 4px;
+}
+a:hover {
+    text-decoration: none;
+    background: rgba(103,100,104, 80%)
+}
+section {
+    padding: 8px;
+}
+header {
+    padding: 8px;
+}
+
+/* Profile ------ */
+header {
+    background: #899878;
+}
+
+
+/* Projects ------ */
+.projects {
+    background:#F7F7F2;
+}
+
+
+/* Work Experience ------ */
+.work-experience {
+    background: #E4E6C3;
+}
+
+
+/* Education ------ */
+
+
+/* Contact ------ */
+footer {
+    background: #EB9486;
+    color: #F7F7F2;
+    padding: 8px;
+}
+li {
+    padding: 10px;
+}
