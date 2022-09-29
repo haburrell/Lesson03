@@ -16,15 +16,51 @@ body {
     font-size: 15px;
     line-height: 1.5;
 }
-a {
+ul {
+    text-align: left;
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px;
+    background: #F7F7F2;
+    cursor: pointer;
+}
+ul li:hover {
     color: #F7F7F2;
     background: #2E2C2F;
+}
+ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 48px;
+    left: -10000px;
+    width: 150px;
+}
+ul li ul li {
+    color: #F7F7F2;
+    background: #2E2C2F;
+    display: block;
+}
+ul li ul li:hover { 
+    background: #F7F7F2;
+    color: #2E2C2F;;
+}
+ul li:hover ul {
+    display: block;
+    left :0px;    
+} 
+
+a {
+    color: #2E2C2F;
+    background: #F7F7F2;
     padding: 8px;
     border-radius: 4px;
 }
 a:hover {
     text-decoration: none;
-    background: rgba(103,100,104, 80%)
+    background:  #899878
 }
 section {
     padding: 8px;
